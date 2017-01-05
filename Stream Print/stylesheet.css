@@ -1,0 +1,93 @@
+body {
+    font-family: 'Droid Serif', serif;
+    background-color: #555;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav {
+    background-color: #444;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
+}
+
+h2 {
+    color: #eee;
+    margin: 0 auto;
+    flex-basis: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin-top: 0;
+}
+
+.nav-list li{
+    padding: 5px;
+    margin: 0;
+    color: orange;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.nav-list li a:hover {
+    color: orange;
+}
+
+.container {
+    display: flex;
+    flex-basis: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    min-width: 95%;
+    justify-content: center;
+    border-radius: 1%;
+}
+
+video {
+    max-width: 98%;
+    height: 258px;
+    border-radius: %;
+}
+
+aside {
+    background-color: red;
+    display: none;
+}
+
+.info {
+    background-color: #fff;
+    height: 370px;
+    flex-basis: 90%;
+    margin:10px auto;
+    border-radius: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#current-print-file {
+    max-width: 40%;
+    margin: 10px auto;
+    margin-bottom: 0;
+    border-radius: 1%;
+    height: 50%;
+    flex-basis: 100%;
+}
+
+#approx-time {
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+    flex-basis: 100%;
+}
